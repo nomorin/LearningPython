@@ -16,3 +16,9 @@ print(abc.replace('abc', '123'))
 
 linestr = "@" * 20
 print(linestr)
+
+print(len(linestr))
+
+print(linestr.index("@"))
+
+
