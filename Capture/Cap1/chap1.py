@@ -14,3 +14,5 @@ print(abc.upper())
 # 一致する文字列を置換する
 print(abc.replace('abc', '123'))
 
+linestr = "@" * 20
+print(linestr)
