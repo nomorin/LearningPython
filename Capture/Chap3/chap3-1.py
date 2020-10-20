@@ -40,3 +40,17 @@ print(str(num_one) == str_one)
 print(num_one == int(str_one))
 
 
+# seq = range(10)
+# print(seq)
+#
+# for item in seq:
+#     print(item)
+
+# 開始値, 終了値, 増加数
+for cnt in range(0, 10, 2):
+    print(cnt)
+    if cnt % 3 == 0:
+        break
+
+
+
