@@ -47,3 +47,22 @@ print([x for x in range(1, value) if value % x == 0])
 #       return x
 # print(x)
 
+l = [x+y for x in (1, 2, 3) for y in (100, 200, 300)]
+print(l)
+
+
+test_list = []
+for x in (1, 2, 3):
+    for y in (100, 200, 300):
+        test_list.append(x+y)
+
+print(test_list)
+
+
+# 多次元配列の要素を調べる.
+# print([(x, y) for x in range(8) for y in range(8) if board[y][x] ==1])
+
+# 約数を調べる（その２）
+divisor = [(x, [y for y in range(1, x) if x % y == 0]) for x in range(1, 11)]
+print(divisor)
+
